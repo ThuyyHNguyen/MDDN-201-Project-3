@@ -36,19 +36,19 @@ function tabulateAnswers() {
   // Display answer corresponding to that choice
   var answerbox = $("#answer");//document.getElementById('answer');
   if (c1score == maxscore) { // If user chooses the first choice the most, this outcome will be displayed.
-   console.log("Hi");
+   console.log("Angry");
    $(answerbox).append('hi1'); 
   }
   if (c2score == maxscore) { // If user chooses the second choice the most, this outcome will be displayed.
-   console.log("Hi2");   
+   console.log("Sad");   
    $(answerbox).append('hi2'); 
  }
   if (c3score == maxscore) { // If user chooses the third choice the most, this outcome will be displayed.
-   console.log("Hi3");
+   console.log("Neutral");
    $(answerbox).append('hi3');  
   }
   if (c4score == maxscore) { // If user chooses the fourth choice the most, this outcome will be displayed.
-    console.log("Hi4"); 
+    console.log("Happy"); 
     $(answerbox).html('<a href="http://www.google.com">Google</a>');; 
   }
  }
