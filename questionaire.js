@@ -37,7 +37,7 @@ function tabulateAnswers() {
   var answerbox = $("#answer");//document.getElementById('answer');
   if (c1score == maxscore) { // If user chooses the first choice the most, this outcome will be displayed.
    console.log("Hi");
-   $(answerbox).append('hi'); 
+   $(answerbox).append('hi1'); 
   }
   if (c2score == maxscore) { // If user chooses the second choice the most, this outcome will be displayed.
    console.log("Hi2");   
