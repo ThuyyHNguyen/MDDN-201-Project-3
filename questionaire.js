@@ -45,11 +45,11 @@ function tabulateAnswers() {
  }
   if (c3score == maxscore) { // If user chooses the third choice the most, this outcome will be displayed.
    console.log("Neutral");
-   $(answerbox).append('hi3');  
+   $(answerbox).html('<p>You have a neutral opinion about everything at the moment but you can always be happy with everthing</p>');  
   }
   if (c4score == maxscore) { // If user chooses the fourth choice the most, this outcome will be displayed.
     console.log("Happy"); 
-    $(answerbox).html('<a href="http://www.google.com">Google</a>');; 
+    $(answerbox).html('<p>You are happy and you can always be happier.</p> <a href="http://www.google.com">Your Activities</a>');; 
   }
  }
 

@@ -42,6 +42,7 @@ button {
 #answer {
   border: 1px dashed #ccc;
   background: #eee;
+  padding: 10px;
 
 }
 #submit: hover {
