@@ -37,19 +37,19 @@ function tabulateAnswers() {
   var answerbox = $("#answer");//document.getElementById('answer');
   if (c1score == maxscore) { // If user chooses the first choice the most, this outcome will be displayed.
    console.log("Angry");
-   $(answerbox).append('hi1'); 
+   $(answerbox).html('<p>You cannot stay focus when you are angry. We can help you.</p><a href="angry.html">Your Activities</a>'); 
   }
   if (c2score == maxscore) { // If user chooses the second choice the most, this outcome will be displayed.
    console.log("Sad");   
-   $(answerbox).append('hi2'); 
+   $(answerbox).html('<p>We know you are sad at the moment. Let us help you.</p><a href="sad.html">Your Activities</a>'); 
  }
   if (c3score == maxscore) { // If user chooses the third choice the most, this outcome will be displayed.
    console.log("Neutral");
-   $(answerbox).html('<p>You have a neutral opinion about everything at the moment but you can always be happy with everthing</p>');  
+   $(answerbox).html('<p>You have a neutral opinion about everything at the moment but you can always be happy with everthing</p> <a href="normal.html">Your Activities</a>');  
   }
   if (c4score == maxscore) { // If user chooses the fourth choice the most, this outcome will be displayed.
     console.log("Happy"); 
-    $(answerbox).html('<p>You are happy and you can always be happier.</p> <a href="http://www.google.com">Your Activities</a>');; 
+    $(answerbox).html('<p>You are happy and you can always stay happy.</p> <a href="happy.html">Your Activities</a>');; 
   }
  }
 
